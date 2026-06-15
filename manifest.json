@@ -1,17 +1,20 @@
 {
+  "id": "/",
   "name": "Steel Talon",
   "short_name": "Steel Talon",
   "description": "Apache gunship arcade — fly, gun, and survive escalating tours of armour, infantry and anti-aircraft.",
-  "start_url": "index.html",
-  "scope": ".",
+  "start_url": "/",
+  "scope": "/",
   "display": "fullscreen",
   "orientation": "landscape",
   "background_color": "#0a0b09",
   "theme_color": "#0d0f0c",
+  "lang": "en",
+  "dir": "ltr",
   "categories": ["games", "action"],
   "icons": [
-    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
-    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
-    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
   ]
 }
